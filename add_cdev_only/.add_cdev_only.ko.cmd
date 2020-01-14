@@ -1,0 +1,1 @@
+cmd_/home/debian/beagle_bone_driver/add_cdev_only/add_cdev_only.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /home/debian/beagle_bone_driver/add_cdev_only/add_cdev_only.ko /home/debian/beagle_bone_driver/add_cdev_only/add_cdev_only.o /home/debian/beagle_bone_driver/add_cdev_only/add_cdev_only.mod.o ;  true
