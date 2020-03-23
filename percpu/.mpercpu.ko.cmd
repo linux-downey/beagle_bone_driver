@@ -1,0 +1,1 @@
+cmd_/home/book/src/beagle_bone_driver/percpu/mpercpu.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/book/src/beagle_bone_driver/percpu/mpercpu.ko /home/book/src/beagle_bone_driver/percpu/mpercpu.o /home/book/src/beagle_bone_driver/percpu/mpercpu.mod.o ;  true

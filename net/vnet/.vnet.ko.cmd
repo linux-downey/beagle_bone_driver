@@ -1,0 +1,1 @@
+cmd_/home/book/src/beagle_bone_driver/net/vnet/vnet.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/src/beagle_bone_driver/net/vnet/vnet.ko /home/book/src/beagle_bone_driver/net/vnet/vnet.o /home/book/src/beagle_bone_driver/net/vnet/vnet.mod.o ;  true

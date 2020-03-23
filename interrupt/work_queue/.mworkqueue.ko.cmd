@@ -1,0 +1,1 @@
+cmd_/home/book/src/beagle_bone_driver/interrupt/work_queue/mworkqueue.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/src/beagle_bone_driver/interrupt/work_queue/mworkqueue.ko /home/book/src/beagle_bone_driver/interrupt/work_queue/mworkqueue.o /home/book/src/beagle_bone_driver/interrupt/work_queue/mworkqueue.mod.o ;  true
